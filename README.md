@@ -1,18 +1,7 @@
-# create-svelte
+# Push SDK Chat Feature
+Push Protocol (EPNS) is the world’s first decentralized communication & notification protocol for Web3.
+Using the protocol, any smart contract, dApp, or backend service can send on-chain or off-chain notifications tied to the wallet addresses of users in a gasless, multichain, open, and platform-agnostic way.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
 ## Developing
 
@@ -25,14 +14,10 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## Resources
 
-To create a production version of your app:
+[Offical Docs](https://docs.push.org/developers/concepts/push-chat-for-web3)
 
-```bash
-npm run build
-```
+[SDK Detailed Doc](https://github.com/ethereum-push-notification-service/push-sdk/blob/main/packages/restapi/README.md) **Recommended**
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+[SDK Socket Doc](https://github.com/ethereum-push-notification-service/push-sdk/blob/main/packages/socket/README)
